@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Calculator</title>
+    <link rel="stylesheet" href="calculator.css" />
+  </head>
+  <body>
+    <div id="calculator">
+      <div id="screen">
+        <div id="leftsection">
+          <div id="display2"></div>
+          <div id="display1"></div>
+        </div>
+        <div id="rightsection">
+          <div id="temporaryResult"></div>
+        </div>
+      </div>
+      <table>
+        <tr>
+          <td class="display">7</td>
+          <td class="display">8</td>
+          <td class="display">9</td>
+          <td class="operator" id="add">+</td>
+        </tr>
+        <tr>
+          <td class="display">4</td>
+          <td class="display">5</td>
+          <td class="display">6</td>
+          <td class="operator" id="subtract">-</td>
+        </tr>
+        <tr>
+          <td class="display">1</td>
+          <td class="display">2</td>
+          <td class="display">3</td>
+          <td class="operator" id="multiply">*</td>
+        </tr>
+        <tr>
+          <td class="display">0</td>
+          <td class="display">.</td>
+          <td id="equal">=</td>
+          <td class="operator" id="devide">/</td>
+        </tr>
+        <tr>
+          <td id="clear">C</td>
+          <td id="back">B</td>
+          <td id="square" class="operator">&#8730;</td>
+          <td class="display" id="factorial">!</td>
+        </tr>
+      </table>
+    </div>
+    <script src="calculator.js"></script>
+  </body>
+</html>
